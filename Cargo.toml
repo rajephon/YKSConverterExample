@@ -1,0 +1,19 @@
+[package]
+name = "yks-converter-example"
+version = "1.0.0"
+edition = "2021"
+authors = ["YKS Team"]
+license = "MIT"
+description = "Example application using YKS Converter library for MIDI to MP3 conversion"
+repository = "https://github.com/yourusername/yks-converter-example"
+keywords = ["midi", "mp3", "audio", "example", "yks-converter"]
+categories = ["multimedia::audio", "command-line-utilities"]
+readme = "README.md"
+
+[dependencies]
+hound = "3.5"
+libc = "0.2"
+yks_converter = "0.1.0"
+
+[build-dependencies]
+pkg-config = "0.3"
